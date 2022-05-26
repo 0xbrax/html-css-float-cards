@@ -32,16 +32,19 @@ body {
 .card {
     width: calc(100% / 3);
     background-color: #0F0E17;
+    float: left;
 }
 
 .card-img {
     height: 100px;
-    float: left;
+    vertical-align: middle;
 }
 
 .card-txt {
     color: #FFF;
-    float: left;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .email {
