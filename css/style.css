@@ -29,10 +29,14 @@ body {
     margin: 30px 0px;
 }
 
-.card {
+.container {
     width: calc(100% / 3);
-    background-color: #0F0E17;
     float: left;
+}
+
+.card {
+    background-color: #0F0E17;
+    margin: 15px;
 }
 
 .card-img {
@@ -42,7 +46,7 @@ body {
 
 .card-txt {
     color: #FFF;
-    font-size: 10px;
+    font-size: 12px;
     display: inline-block;
     vertical-align: middle;
 }
