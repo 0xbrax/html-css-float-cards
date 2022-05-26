@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
     width: 80%;
     margin: 0 auto;
 }
@@ -17,7 +18,7 @@ body {
 }
 
 .title {
-    text-align: center;   
+    text-align: center;
 }
 
 .title h1 {
@@ -26,7 +27,7 @@ body {
 }
 
 .title h1, .title p {
-    margin: 30px 0px;
+    margin: 30px 15px; 
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
 
 .card {
     background-color: #0F0E17;
-    margin: 15px;
+    margin: 30px 15px;
 }
 
 .card-img {
@@ -46,9 +47,13 @@ body {
 
 .card-txt {
     color: #FFF;
-    font-size: 12px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.card-txt p {
+    padding-left: 15px;
+    line-height: calc((100px - (15px * 2))/ 3);
 }
 
 .email {
