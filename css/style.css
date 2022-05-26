@@ -25,6 +25,25 @@ body {
     color: #E53170;
 }
 
-.title h1, p {
+.title h1, .title p {
     margin: 30px 0px;
+}
+
+.card {
+    width: calc(100% / 3);
+    background-color: #0F0E17;
+}
+
+.card-img {
+    height: 100px;
+    float: left;
+}
+
+.card-txt {
+    color: #FFF;
+    float: left;
+}
+
+.email {
+    color: #6ECBE3;
 }
